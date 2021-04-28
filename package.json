@@ -1,7 +1,12 @@
 {
-  "name": "my-storybook",
-  "version": "0.1.0",
-  "private": true,
+  "name": "zander-components",
+  "version": "0.0.10",
+  "description": "前端公共组件库",
+  "private": false,
+  "author": {
+    "name": "Zander",
+    "email": "xuezenghui6@gmail.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -35,5 +40,11 @@
     "vue-cli-plugin-vuetify": "~2.1.0",
     "vue-template-compiler": "^2.6.11",
     "vuetify-loader": "^1.7.0"
-  }
+  },
+  "main": "lib/main.js",
+  "files": [
+    "lib",
+    "src/assets",
+    "src/components"
+  ]
 }

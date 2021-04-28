@@ -1,4 +1,4 @@
-# my-storybook
+# 前端公共组件库
 
 > 博客文章[前端工程化之组件化开发](https://xuezenghui.com/posts/component-based-development/)案例。
 
